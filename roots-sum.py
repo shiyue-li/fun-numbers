@@ -17,7 +17,7 @@ def plot(x, y):
     plt.plot(x, y)
     plt.xlabel("Natual Numbers")
     plt.ylabel("Sum of Roots")
-    plt.axis([0, 1000, 0, 1200])
+    plt.axis([0, x[-1], 0, 1.2*x[-1]])
     plt.show()
 
 def main():
